@@ -13,7 +13,7 @@ const Desktop = () => {
             <ul key={path}>
               <Link
                 className={clsx(
-                  "transition-all hover:border-b-2 hover:border-b-primary-orange hover:p-2",
+                  "transition-all hover:border-b-2 hover:border-b-primary-orange hover:p-1",
                   {
                     "border-b-2 border-b-primary-orange p-2": path === pathname,
                   }
