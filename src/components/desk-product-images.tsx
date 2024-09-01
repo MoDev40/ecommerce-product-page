@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import { useState } from "react";
 
-type Image = {
+export type Image = {
   key: string;
   thumbnail: string;
   image: string;
